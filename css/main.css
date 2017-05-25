@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-color: #E5E5E5;
+}
+
+.nav{
+	list-style-type: none;
+	width: 75%;
+	overflow: hidden;
+	margin: 50px auto;
+}
+
+.navlist{
+	margin-top: 12px;
+	padding: 5px 15px;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	font-family: 'Ubuntu', sans-serif;
+	color: #666666;
+}
+
+.navlist:hover{
+	color: #000000;
+	cursor: pointer;
+}
+
+#listpage{
+	margin-top: 12px;
+	padding: 5px 15px;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	font-family: 'Ubuntu', sans-serif;
+	color: #0F0F0F;
+	cursor: pointer;
+}
+
+.log{
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 30px;
+	color: #4c4c4c;
+	display: inline-block;
+	padding: 5px 0;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
