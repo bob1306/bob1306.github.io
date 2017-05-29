@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 body{
-	background-color: #E5E5E5;
+	background-color: #F2F2F2;
 }
-
+/*nav bar*/
 .nav{
 	list-style-type: none;
 	width: 75%;
@@ -51,3 +51,77 @@ a {
 	color: inherit;
 }
 
+/* content box*/
+
+.projectback{
+	height: 400px;
+	width: 98%;
+	background-image: url(../pic/plan800.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+}
+
+.projectbtn{
+	box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,0.3);
+	width: 300px;
+	height: 200px;
+	border-radius: 15px;
+	background-image: url(../pic/greatroom.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:right;
+	margin-left: 54%;
+	margin-top: 100px;
+	transition: 0.5s;
+}
+
+.projectbtn:hover{
+    animation: moveupdown 1s;
+	box-shadow: 0 8px 12px 0px rgba(0, 0, 0, 0.3);
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveupdown {
+  45% {
+	transform:perspective(5em) rotateY(2deg);
+  }
+  80% {
+ 	transform:perspective(5em) rotateY(-0.5deg);
+  }
+ /* 80% {
+ 	transform:perspective(5em) rotateY(0.5deg);
+  }
+  90% {
+ 	transform:perspective(5em) rotateY(-0.5deg);
+  }*/
+  100% {
+	transform:perspective(5em) rotateY(0deg);
+  }
+}
+
+.btnntext{
+	transition: 0.5s;
+}
+
+.btnntext:hover{
+	transform: translate(0, -15px);
+	cursor: pointer;
+}
+
+.projectdes{
+	padding: 0;
+	margin: 0;
+    font-family: 'Inconsolata', monospace;
+	font-size: 14px;
+	line-height: 18px;
+	transform: translate(-70px,143px);
+	color: #050054;
+}
+
+.projectdes::after{
+	content: "#service design #interior design";
+	font-size: 12px;
+}
