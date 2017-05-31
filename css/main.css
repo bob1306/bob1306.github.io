@@ -73,7 +73,7 @@ a {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position:right;
-	margin-left: 54%;
+	margin-left: 0;
 	margin-top: 100px;
 	transition: 0.5s;
 }
@@ -103,6 +103,8 @@ a {
 }
 
 .btnntext{
+	margin-left: 54%;
+	width: 300px;
 	transition: 0.5s;
 }
 
@@ -124,4 +126,239 @@ a {
 .projectdes::after{
 	content: "#service design #interior design";
 	font-size: 12px;
+}
+
+/*last supper*/
+
+.title, .title1{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	font-weight: 800;
+	height: 28px;
+	color: #333333;
+}
+
+.title{
+	margin-top: 150px;
+}
+
+.title1{
+	margin-top: 0;
+	padding-top: 0;
+	font-style: italic;
+	padding-bottom: 38px;
+}
+
+.intro, .intro1, .intro2{
+    font-family: 'Inconsolata', monospace;
+	color: #333333;
+	font-weight: 400;
+	font-size: 16px;
+	width: 330px;
+	line-height: 1.2rem;
+	margin: 10px auto;
+	
+}
+
+.intro1{
+	border-top: 1px solid #666666;
+	padding-top: 20px;
+}
+
+.line{
+	width: 60%;
+	border-top: 1px solid #999999;
+	margin: 100px auto;
+}
+
+h2{
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;
+	text-align: center;
+}
+
+.subtitle, .subtitle1{
+    font-family: 'Inconsolata', monospace;
+	color: #333333;
+	margin: 0 20%;
+}
+
+.subtitle1{
+    border-bottom: 1px solid #666666;
+	width: 350px;
+	padding-bottom: 2px;
+	margin-bottom: 20px;
+}
+
+.tleft{
+	font-family: 'Inconsolata', monospace;
+	color: #333333;
+	width: 30%;
+	min-width: 300px;
+	padding: 0;
+	line-height: 1.2rem;
+	display: inline-block;
+}
+
+/* online research damage*/
+.normalbox{
+	margin: auto;
+	width: 60%;
+	min-width: 800px;
+}
+
+.ilbox{
+	margin-left: 0;
+	margin-right: 0;
+	width: 30%;
+	min-width: 300px;
+	display: inline-block;
+}
+
+.imgr{
+	width: inherit;
+}
+
+.cent{
+	width: inherit;
+	padding-bottom: 20px;
+	font-family: 'Inconsolata', monospace;
+	color: #333333;
+	display: inline-block;
+	text-align: center;
+}
+
+.picr{
+	width: 400px;
+	margin: auto;
+	margin-top: 30px;
+	float: right;
+	display: inline-block;
+}
+
+/* quote*/
+.picl{
+	width: 360px;
+	height: auto;
+	border-right: 3px dashed #666666;
+	display: inline-block;
+}
+
+.pink{
+	margin: 20px 40px;
+	padding: 0;
+	width: 260px;
+	box-shadow: 0 8px 12px 0px rgba(0, 0, 0, 0.3);
+}
+
+.pinkb{
+	width: 340px;
+	background-color: #f8e8e3;
+	margin: 10px 0;
+}
+
+.quotebox{
+	width: inherit;
+}
+
+.quote{
+	font-family: 'Open Sans', sans-serif;
+	color: #4C4C4C;
+	text-align: center;
+	font-size: 24px;
+	margin: 60px auto 0 auto;
+}
+
+.intro2{
+	text-align: center;
+}
+
+.space{
+	width: 100%;
+	height: 20px;
+}
+
+.quotebigbox{
+	width: 400px;
+	display: inline-block;
+	float: right;
+}
+
+/*pic bloc*/
+.normalbigbox{
+	width: 80%;
+	min-width: 800px;
+	height: 90vh;
+	min-height: 600px;
+	margin: auto;
+}
+
+.pinktext1, .pinktext2, .pinktext3, .pinktext4, .pinktext5, .pinktext6, .pinktext7{
+	font-family: 'Open Sans', sans-serif;
+	color: #f8e8e3;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 350px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	float: left;
+}
+
+#this{
+	width: 23%;
+	height: 48%;
+	margin: 1%;
+	float: left;
+}
+
+.pinktext1{
+	margin: 1% 0;
+	width: 100%;
+	height: 47%;
+	background-image: url(../pic/rteee.png)
+}
+
+.pinktext2{
+	margin: 7.5% 0;
+	width: 100%;
+	height: 47%;
+	background-image: url(../pic/00.jpg)
+}
+
+.pinktext3{
+	margin: 1%;
+	width: 23%;
+	height: 48%;
+	background-image: url(../pic/IMG_0371.jpg)
+}
+
+.pinktext4{
+	margin: 1%;
+	width: 48%;
+	height: 48%;
+	background-image: url(../pic/IMG_0370.jpg)
+}
+
+.pinktext5{
+	margin: 1%;
+	width: 48%;
+	height: 48%;
+	background-image: url(../pic/IMG_5138.jpg)
+}
+
+.pinktext6{
+	margin: 1%;
+	width: 23%;
+	height: 48%;
+	background-image: url(../pic/IMG_1322.JPG)
+}
+
+.pinktext7{
+	margin: 1%;
+	width: 23%;
+	height: 48%;
+	background-image: url(../pic/IMG_5225.jpg)
 }
