@@ -362,3 +362,20 @@ h2{
 	height: 48%;
 	background-image: url(../pic/IMG_5225.jpg)
 }
+
+.normalbigbox1{
+	width: 80%;
+	min-width: 800px;
+	min-height: 600px;
+	margin: auto;
+}
+
+.somepic{
+	width: 100%;
+}
+
+.normalboxsmall{
+	width: 40%;
+	min-width: 400px;
+	margin: auto;
+}
