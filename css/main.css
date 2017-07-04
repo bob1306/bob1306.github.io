@@ -379,3 +379,31 @@ h2{
 	min-width: 400px;
 	margin: auto;
 }
+
+.intro3, .intro4{
+	    font-family: 'Inconsolata', monospace;
+	color: #333333;
+	font-weight: 400;
+	font-size: 16px;
+	width: 400px;
+	line-height: 1.2rem;
+	margin: 10px auto;
+}
+
+.intro4{
+	border-top: 1px solid #666666;
+	padding-top: 20px;
+}
+
+#thispic{
+	width: 62.5%;
+	float: left;
+}
+
+#thispic2{
+	width: 37.5%;
+}
+
+.normalpic{
+	width: 100%;
+}
