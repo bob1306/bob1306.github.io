@@ -407,3 +407,45 @@ h2{
 .normalpic{
 	width: 100%;
 }
+
+.bigimgr{
+	width: 400px;
+	margin: auto;
+	margin-top: 10px;
+	float: right;
+	display: inline-block;
+}
+
+.bigimgrr{
+	width: 400px;
+	height: 80%;
+	margin: auto;
+	display: inline-block;
+	float: right;
+}
+
+.imgrr{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.bigimgl{
+	width:400px;
+	margin:auto;
+	margin-top: 45px;
+	display: inline-block;
+	float: left;
+}
+
+.apppic{
+	width: 100%;
+	border-top: 1px solid rgba(0,0,0,0.3);
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.normalbigbox2{
+	width: 80%;
+	min-width: 800px;
+	margin: auto;
+}
