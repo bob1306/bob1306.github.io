@@ -449,3 +449,11 @@ h2{
 	min-width: 800px;
 	margin: auto;
 }
+
+.bigimgrc{
+	width: 400px;
+	margin: auto;
+	margin-top: 60px;
+	float: right;
+	display: inline-block;
+}
