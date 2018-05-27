@@ -51,6 +51,26 @@ a {
 	color: inherit;
 }
 
+.bottomnav{
+	width: 40%;
+	margin: auto;
+	text-align: center;
+}
+
+.navlistbottom{
+	margin-top: 12px;
+	padding: 5px 15px;
+	text-align: center;
+	display: inline-block;
+	font-family: 'Ubuntu', sans-serif;
+	color: #666666;
+}
+
+.navlistbottom:hover{
+	color: #000000;
+	cursor: pointer;
+}
+
 /* content box*/
 
 .projectback{
@@ -456,4 +476,31 @@ h2{
 	margin-top: 60px;
 	float: right;
 	display: inline-block;
+}
+
+.bigspace{
+	width: 100%;
+	height: 300px;
+}
+
+#normalboxcc{
+	margin: auto;
+	width: 60%;
+	min-width: 800px;
+	height: 750px;
+}
+
+#normalboxcd{
+	margin: auto;
+	width: 60%;
+	min-width: 800px;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.lastpicls{
+	margin-left: 25%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	width: 50%;
+	min-width: 400px;
 }
