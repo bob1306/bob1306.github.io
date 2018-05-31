@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.titleari{
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 80px;
+	font-weight: 600;
+	color: #333333;
+}
+
+.titlearisub{
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	font-style: italic;
+	transform: translate(0,-70px);
+}
+
+.ariboxtitle{
+	padding-top: 115px;
+	height: inherit;
+	padding-left: 42%;
+	
+}
+
+.aribigbox{
+	background-image: url(../mainpage/projects/aripic/whitelightgif109.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	width: 90%;
+	min-width: 600px;
+	min-height: 500px;
+	margin: auto;
+}
+
+#youtubevideoari{
+	margin: auto;
+	width: 853px;
+}
+
+.arititle{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 150px;
+	
+	
+}
+
+.aritextcenterbox{
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;
+	font-weight: 400;
+	font-size: 28px;
+	width: 500px;
+	line-height: 2.3rem;
+	margin: 0 auto 150px;
+	transform: translate(20px);
+}
+
+.aripicbox{
+	background: url(../mainpage/projects/aripic/1212121314.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	width: 90%;
+	min-width: 630px;
+	margin: auto;
+}
+
+#whatariis{
+	font-family: 'Open Sans', sans-serif;
+	color: #E6E6E6;
+	font-weight: 300;
+	font-size: 28px;
+	width: 30%;
+	padding-left: 13%;
+	padding-top: 150px;
+	padding-bottom: 180px;
+}
+
+.aritextcenterbox1, .arithanks{
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;
+	font-weight: 400;
+	font-size: 20px;
+	width: 500px;
+	line-height: 2rem;
+	margin: 0 auto 100px;
+	transform: translate(10px);
+	padding-bottom: 10px;
+}
+
+.arithanks{
+	margin-top: 150px;
+}
+
+#arigifbox{
+	background: url(../mainpage/projects/aripic/text.gif);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center bottom;
+	width: 90%;
+	min-width: 630px;
+	margin: auto;
+	min-height: 500px;
+}
+
+.arititle1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 150px;
+	
+}
+
+#whatariis2{
+	font-family: 'Open Sans', sans-serif;
+	color: #E6E6E6;
+	font-weight: 300;
+	font-size: 28px;
+	width: 30%;
+	padding-left: 13%;
+	padding-top: 150px;
+	padding-bottom: 180px;
+}
+
+.aripicbox2{
+	background: url(../mainpage/projects/aripic/121212131.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	width: 90%;
+	min-width: 630px;
+	margin: auto;
+}
+
+#aripicmiddle{
+	width: 40%;
+	min-width: 400px;
+	margin: auto;
+}
+
+.aripicmiddletwo{
+	width: 40%;
+	min-width: 400px;
+	margin: auto;
+	margin-top: 100px;
+	border-top: solid 1px #9B9B9B;
+	border-bottom: solid 1px #9B9B9B;
+}
+
+#aritextcenterbox2{
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;
+	font-weight: 400;
+	font-size: 20px;
+	width: 425px;
+	line-height: 2rem;
+	margin: 0 auto 50px;
+	padding-bottom: 10px;
+	margin-top: 100px;
+}
+
+.aripicdemo{
+	width: 90%;
+	min-width: 600px;
+	margin: 0 3% 0 7%;
+}
+
+.somepic2{
+	width: 46%;
+	margin: 3px;
+	display: inline-block;
+}
+
+.aripicmiddlebig{
+	width: 60%;
+	margin: auto;
+	margin-top: 10px;
+	min-width: 600px;
+	
+}
+
+.arititle2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 50px;
+}
+
+.aritextcenterboxbig{
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;
+	font-weight: 400;
+	font-size: 16px;
+	width: 600px;
+	line-height: 1.5rem;
+	margin: 0 auto 10px;
+	transform: translate(10px);
+	padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 1146px) and (min-width: 320px) {
+	#whatariis{
+		text-align: center;
+		width: 80%;
+		height: 200px;
+		font-size: 24px;
+		padding-left: 10%;
+		padding-top: 40px;
+		padding-bottom: 280px;
+	}
+	.aripicbox{
+		background-position: 90% 0;
+	}
+	.aritextcenterbox1{
+		padding-bottom: 50px;
+	}
+	.aripicbox2{
+		background-position: 80% 0;
+	}
+	
+}
+
+@media only screen and (max-width: 780px) and (min-width: 320px) {
+	#whatariis2{
+		padding-left: 3%;
+		padding-top: 100px;
+	}
+}

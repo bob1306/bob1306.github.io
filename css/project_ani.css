@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.projectbackari{
+	height: 400px;
+	width: 98%;
+	margin: auto;
+	margin-top: 20px;
+	background-image: url(../mainpage/projectbpic/iconsari.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.projectbtnari{
+	box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,0.3);
+	width: 300px;
+	height: 200px;
+	border-radius: 15px;
+	background-image: url(../mainpage/projectbpic/121212131.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:right;
+	margin-left: 0;
+	transition: 0.5s;
+}
+
+.projectbtnari:hover{
+    animation: moveupdown 1s;
+	box-shadow: 0 8px 12px 0px rgba(0, 0, 0, 0.3);
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveupdown {
+  45% {
+	transform:perspective(5em) rotateY(2deg);
+  }
+  80% {
+ 	transform:perspective(5em) rotateY(-0.5deg);
+  }
+ /* 80% {
+ 	transform:perspective(5em) rotateY(0.5deg);
+  }
+  90% {
+ 	transform:perspective(5em) rotateY(-0.5deg);
+  }*/
+  100% {
+	transform:perspective(5em) rotateY(0deg);
+  }
+}
+
+.btnntextari{
+	margin-left: 14%;
+	padding-top: 90px;
+	width: 300px;
+	transition: 0.5s;
+}
+
+.btnntextari:hover{
+	transform: translate(0, -15px);
+	cursor: pointer;
+}
+
+.projectdesari{
+	padding: 0;
+	margin: 0;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	transform: translate(70px,153px);
+	color: #303030;
+}
+
+.projectdesari::after{
+	content: "#product innovation #interactive hardware";
+	font-size: 12px;
+}

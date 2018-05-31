@@ -76,11 +76,11 @@ a {
 .projectback{
 	height: 400px;
 	width: 98%;
+	margin: auto;
 	background-image: url(../pic/plan1440.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	position: absolute;
 }
 
 .projectbtn{
@@ -94,7 +94,6 @@ a {
 	background-repeat: no-repeat;
 	background-position:right;
 	margin-left: 0;
-	margin-top: 100px;
 	transition: 0.5s;
 }
 
@@ -124,6 +123,7 @@ a {
 
 .btnntext{
 	margin-left: 54%;
+	padding-top: 90px;
 	width: 300px;
 	transition: 0.5s;
 }
@@ -136,11 +136,11 @@ a {
 .projectdes{
 	padding: 0;
 	margin: 0;
-    font-family: 'Inconsolata', monospace;
-	font-size: 14px;
-	line-height: 18px;
-	transform: translate(-70px,143px);
-	color: #050054;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	transform: translate(-70px,153px);
+	color: #303030;
 }
 
 .projectdes::after{
