@@ -6,6 +6,10 @@ body, html{
 	padding: 0;
 }
 
+#pure_white{
+	background-color: #F7F7F7;
+}
+
 body{
 	background-color: #F2F2F2;
 }
@@ -45,6 +49,11 @@ body{
 	float: right;
 	font-family: 'Ubuntu', sans-serif;
 	color: #F2F2F2;
+}
+
+.navlist_white:hover{
+	color: white;
+	cursor: pointer;
 }
 
 .navlist:hover{
