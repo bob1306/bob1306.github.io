@@ -76,3 +76,79 @@
 	content: "#product innovation #interactive hardware";
 	font-size: 12px;
 }
+
+/*aplus*/
+.projectbackaplus{
+	height: 400px;
+	width: 98%;
+	margin: auto;
+	background-image: url(../mainpage/projectbpic/aplus_project_back.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.projectbtnaplus{
+	box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,0.3);
+	width: 300px;
+	height: 200px;
+	border-radius: 15px;
+	background-image: url(../mainpage/projectbpic/pag2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:right;
+	margin-left: 0;
+	transition: 0.5s;
+}
+
+.projectbtnaplus:hover{
+    animation: moveupdown 1s;
+	box-shadow: 0 8px 12px 0px rgba(0, 0, 0, 0.3);
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveupdown {
+  45% {
+	transform:perspective(5em) rotateY(2deg);
+  }
+  80% {
+ 	transform:perspective(5em) rotateY(-0.5deg);
+  }
+ /* 80% {
+ 	transform:perspective(5em) rotateY(0.5deg);
+  }
+  90% {
+ 	transform:perspective(5em) rotateY(-0.5deg);
+  }*/
+  100% {
+	transform:perspective(5em) rotateY(0deg);
+  }
+}
+
+.btnntext{
+	margin-left: 54%;
+	padding-top: 90px;
+	width: 300px;
+	transition: 0.5s;
+}
+
+.btnntext:hover{
+	transform: translate(0, -15px);
+	cursor: pointer;
+}
+
+.projectdesaplus{
+	padding: 0;
+	margin: 0;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	transform: translate(-70px,153px);
+	color: #303030;
+}
+
+.projectdesaplus::after{
+	content: "#service design #social innovation";
+	font-size: 12px;
+}

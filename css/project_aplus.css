@@ -1,0 +1,376 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body {
+width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+}
+
+.aplustitlebox{
+	margin-top: 100px;
+	width:260px;
+	height: 75px;
+	background-color: #f7e4e3;
+	margin-left: 45%;
+}
+
+#aplustitle{
+	width: 270px;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 70px;
+	color: #727171;
+	transform: translate(30px, -18px);
+}
+
+#aplussbtitile{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 26px;
+	font-weight: 400;
+	color: #727171;
+	margin: 0;
+	padding: 0;
+	transform: translate(70px, -95px);
+}
+
+.aplusfbox{
+	width: 96%;
+	margin: auto;
+	margin-top: 50px;
+	min-width: 800px;
+}
+
+.aplusleftbigbox{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5%;
+}
+
+.stupicmistake{
+	background-color: #f7e4e3;
+	width: 20%;
+	margin-top: 130px;
+	height: 450px;
+	padding-top: 40px;
+	display: inline-block;
+}
+
+.mainpicback{
+	width: 400%;
+	padding: 0;
+	height: auto;
+	display: inline-block;
+}
+
+.aplussomepic{
+	width: 100%;
+	display: inline-block;
+}
+
+.aplustextrightbox{
+	width: 50%;
+	min-width: 400px;
+	display: inline-block;
+}
+
+.subaplus{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	margin: 0;
+	color: #c68987;
+}
+
+.aplustextp{
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 20px;
+}
+
+.aplussometitlebox{
+	background-color: #f7e4e3;
+	width: 120px;
+	height: 40px;
+	margin-left: 20%;
+	margin-top: 60px;
+}
+
+.aplussometitlebox1{
+	background-color: #f7e4e3;
+	width: 230px;
+	height: 40px;
+	margin-left: 20%;
+	margin-top: 60px;
+}
+
+.aplussometitle{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	margin: 0;
+	color: #727171;
+	transform: translate(40px, 5px);
+}
+
+.fullsize{
+	width: 100%;
+	left: 0;
+	margin-top: 30px;
+}
+
+.lefthalf{
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.righthalf{
+	width: 50%;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background-color: #f7e4e3;
+	display: inline-block;
+}
+
+#aplusstudentbox{
+	background-image: url(../mainpage/projects/a+pic/pag21.jpg);
+	width: 70%;
+	min-width: 250px;
+	height: 400px;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	float: right;
+	margin-right: 2px;
+	margin-top: 30px;
+}
+
+#apluscompanybox{
+	background-image: url(../mainpage/projects/a+pic/pag22.jpg);
+	width: 70%;
+	min-width: 250px;
+	height: 400px;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-left: 2px;
+	margin-top: 30px;
+}
+
+#decostudent{
+	width: inherit;
+	float: right;
+	transform: translate(-180px, 90px);
+}
+
+#aplusstudenttext{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	color: #424242;
+	text-align: center;
+}
+
+#aplusstudnettext2{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #424242;
+	text-align: center;
+	transform: translate(20px, -50px);
+}
+
+#decocompany{
+	width: 120px;
+	transform: translate(280px, 20px);
+}
+
+#apluscompanytext{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	display: inline-block;
+	color: #727171;
+	text-align: center;
+}
+
+.apluscentertextl{
+	margin-top: 450px;
+	margin-left: auto;
+	margin-right: 2px;
+	width: 100px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	text-align: right;
+	color: #c68987;
+}
+
+.apluscentertextr{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: white;
+	margin-top: 20px;
+	margin-left: 4px;
+}
+
+.apluspiccenterl{
+	width: 60%;
+	float: right;
+	margin-right: 20px;
+	display: inline-block;
+}
+
+.apluspiccenterr{
+	width: 60%;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.aplustextdouble{
+}
+
+.aplustextdoubleti{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 26px;
+	color: #c68987;
+	display: inline-block;
+}
+
+.fadedtext{
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	transform: translate(-20px, 5px);
+	color: #727171;
+}
+
+.fadedtext2{
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	transform: translate(-70px, 5px);
+	color: #727171;
+}
+
+.quoteboxtrans{
+	display: inline-block;
+	margin-left: 10%;
+}
+
+.quoteboxtrans1{
+	display: inline-block;
+	margin-left: 10%;
+}
+
+.aplusnormaltext{
+	font-family: 'Open Sans', sans-serif;
+	text-align: right;
+	float: right;
+	width: 60%;
+	margin-right: 10px;
+}
+
+.aplusnormaltext1{
+	font-family: 'Open Sans', sans-serif;
+	text-align: right;
+	float: right;
+	width: 60%;
+	margin-right: 10px;
+	transform: translate(0, -90px);
+}
+
+.fullsize2{
+	width: 100%;
+	left: 0;
+	margin-top: 0;
+}
+
+.aplusnormaltextr{
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	width: 60%;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.aplustextdoubletir{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+	color: #727171;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	margin-right: 10%;
+	margin-top: 31px;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 320px) {
+	.aplusleftbigbox{
+	width: 80%;
+	display: block;
+	margin: auto;
+  }
+	.aplusfbox{
+		margin-top: 0;
+	}
+	.stupicmistake{
+		margin-top: 30px;
+		margin-left: 10%;
+	}
+	.mainpicback{
+		width: 400px;
+	}
+	.subaplus{
+		text-align: right;
+		padding-right: 20px;
+	}
+	.aplustextrightbox{
+		margin: auto;
+		display: block;
+		width: 65%;
+	}
+	#decocompany{
+	    width: 120px;
+	    transform: translate(190px, 20px);
+    }
+	.apluspiccenterl{
+	    width: 80%;
+    }
+	.apluspiccenterr{
+		width: 80%;
+	}
+	.quoteboxtrans{
+		float: right;
+	}
+	.quoteboxtrans1{
+		float: right;
+		transform: translate(50px, -2px);
+	}
+	.aplusnormaltext{
+		width: 90%;
+	}
+	
+	.aplusnormaltext1{
+		transform: translate(0, 0);
+		width: 90%;
+	}
+	.aplusnormaltextr{
+		width: 90%;
+	}
+	.aplustextdoubletir{
+		float: left;
+		margin-left: 8%;
+	}
+}
