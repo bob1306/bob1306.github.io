@@ -4,7 +4,6 @@ var littleFlower_2 = [];
 
 function setup() {
   var canvas = createCanvas(windowWidth, windowHeight);
-  canvas.style('display', 'block');
   canvas.parent('canvasHolder');
   for (var i = 0; i < 80; i++) {
     littleFlower.push(new Flower());
