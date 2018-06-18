@@ -110,9 +110,9 @@ a {
 }
 
 .bottomnav{
-	width: 40%;
 	margin: auto;
-	text-align: center;
+    width: 165px;
+	padding: 0;
 }
 
 .navlistbottom{
